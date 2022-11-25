@@ -2,6 +2,7 @@
   .gb-footer-top {
     padding: 52.35px 0;
     background: $gb-accent-color-dark-green;
+
     h3 {
       font-weight: 900;
       font-size: 36px;
@@ -21,6 +22,7 @@
         margin-bottom: 24px;
       }
     }
+
     a {
       background: $gb-button-bg-color;
       border-radius: 12px;
@@ -38,24 +40,28 @@
       @media (max-width: 576px) {
         padding-top: 10px;
         padding-bottom: 10px;
-        svg{
-            height: 18px;
-            width: auto;
+        svg {
+          height: 18px;
+          width: auto;
         }
       }
+
       svg {
         margin-left: 8px;
       }
     }
   }
+
   .gb-footer-bottom {
     padding: 27px 0 29px;
     background: $gb-primary-color-black;
+
     .gb-footer-bottom-inner {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
+
       ul {
         padding-left: 0;
         margin-bottom: 0;
@@ -63,11 +69,13 @@
         align-items: center;
         list-style: none;
       }
+
       .gb-footer-logo {
         @media (max-width: 1199px) {
           width: 20%;
         }
       }
+
       .gb-footer-menu {
         @media (max-width: 1199px) {
           width: 80%;
@@ -81,6 +89,7 @@
           text-align: left;
           margin: 10px 0;
         }
+
         ul {
           @media (max-width: 767px) {
             justify-content: flex-start;
@@ -90,6 +99,7 @@
             flex-direction: column;
             align-items: flex-start;
           }
+
           li {
             @media (max-width: 767px) {
               &:first-child {
@@ -98,6 +108,7 @@
                 }
               }
             }
+
             a {
               text-decoration: none;
               padding: 10px 18px;
@@ -114,6 +125,7 @@
           }
         }
       }
+
       .gb-footer-copyright {
         font-family: $gb-secondary-font-family;
         font-weight: 400;
@@ -129,6 +141,7 @@
           margin-bottom: 10px;
         }
       }
+
       .gb-footer-socials {
         @media (max-width: 1199px) {
           text-align: right;
@@ -141,6 +154,7 @@
           width: 100%;
           text-align: left;
         }
+
         ul {
           li {
             @media (max-width: 576px) {
@@ -150,14 +164,17 @@
                 }
               }
             }
+
             a {
               text-decoration: none;
               margin: 0 15px;
+
               &:hover {
                 img {
                   transform: scale(1.1);
                 }
               }
+
               img {
                 transform-origin: center center;
                 transition: all ease-in-out 0.3s;

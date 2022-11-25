@@ -2,6 +2,7 @@
   .row {
     --bs-gutter-x: 30px;
   }
+
   .gb-op-content {
     .gb-op-card {
       display: flex;
@@ -11,13 +12,15 @@
       border-radius: 8px;
       margin-bottom: 50px;
       height: calc(100% - 50px);
-      &:hover{
+
+      &:hover {
         .gb-op-card-image {
-          img{
+          img {
             transform: scale(1.1);
           }
         }
       }
+
       .gb-op-card-image {
         height: 211px;
         display: flex;
@@ -25,6 +28,7 @@
         justify-content: center;
         padding: 40px;
         background-color: $gb-white-color;
+
         img {
           max-height: 108px;
           max-width: 100%;
@@ -33,6 +37,7 @@
           transition: all ease-in-out .3s;
         }
       }
+
       .gb-op-card-info {
         display: flex;
         flex-direction: column;
@@ -40,6 +45,7 @@
         align-items: flex-start;
         flex: 1;
         padding: 24px 24px 26px;
+
         .gb-op-card-description {
           margin-bottom: 9px;
           @include gb-text-base;
@@ -48,6 +54,7 @@
           line-height: 20px;
           color: $gb-primary-color-black;
         }
+
         .gb-op-card-action {
           a {
             @include gb-text-base;

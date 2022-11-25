@@ -5,15 +5,18 @@
     @media (max-width: 767px) {
       padding-top: 73px;
     }
+
     .gb-page-description {
       width: 697px;
     }
   }
+
   .gb-w-header {
     display: flex;
     border-bottom: 1px $gb-accent-color-yellow solid;
     margin-bottom: 66px;
     padding-bottom: 37px;
+
     .gb-w-header-icon {
       width: 80px;
       min-width: 80px;
@@ -22,10 +25,12 @@
       @media (max-width: 767px) {
         margin-right: 20px;
       }
+
       img {
         width: 100%;
       }
     }
+
     .gb-w-header-text {
       .gb-w-header-title {
         font-weight: 800;
@@ -38,6 +43,7 @@
           font-size: 36px;
         }
       }
+
       .gb-w-header-description {
         font-weight: 400;
         font-size: 16px;
@@ -46,6 +52,7 @@
       }
     }
   }
+
   .gb-w-item {
     .gb-w-item-title {
       font-weight: 800;
@@ -58,6 +65,7 @@
         font-size: 30px;
       }
     }
+
     .gb-w-item-description {
       font-weight: 400;
       font-size: 16px;
@@ -65,10 +73,12 @@
       color: $gb-primary-color-dark-gray;
       margin-bottom: 24px;
     }
+
     .gb-w-item-features {
       padding-left: 0;
       margin-bottom: 0;
       list-style: none;
+
       li {
         font-weight: 400;
         font-size: 16px;
@@ -77,6 +87,7 @@
         padding: 4px 0;
         padding-left: 48px;
         position: relative;
+
         &::before {
           content: "";
           position: absolute;
@@ -87,21 +98,25 @@
           background-image: url(../images/icons/check.svg);
           background-size: cover;
         }
+
         &:not(:last-child) {
           margin-bottom: 16px;
         }
       }
     }
   }
+
   .gb-w-slide {
     box-shadow: 0px 22px 60px -10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+
     .gb-w-slide-item {
       img {
         width: 100%;
         border-radius: 8px;
       }
     }
+
     .slick-dots {
       bottom: -60px;
       @media (max-width: 767px) {
@@ -109,15 +124,18 @@
       }
     }
   }
+
   .gb-w-pikasso {
     padding-bottom: 98px;
   }
+
   .gb-w-contact {
     padding: 33px 0 38px;
     margin-bottom: 82px;
     background: $gb-button-bg-color;
     box-shadow: 0px 4px 10px rgba(0, 132, 244, 0.2),
-      0px -2px 10px rgba(0, 132, 244, 0.4);
+    0px -2px 10px rgba(0, 132, 244, 0.4);
+
     h3 {
       font-weight: 800;
       font-size: 44px;
@@ -132,6 +150,7 @@
         font-size: 26px;
       }
     }
+
     a {
       display: inline-flex;
       align-items: center;
@@ -144,19 +163,23 @@
       font-size: 16px;
       line-height: 18px;
       color: $gb-primary-color-black;
+
       &:hover {
         color: $gb-primary-color-dark-gray;
       }
     }
   }
+
   .gb-w-ezwallet {
     padding-bottom: 100px;
     @media (max-width: 991px) {
       padding-bottom: 40px;
     }
   }
+
   .gb-w-services {
     padding: 81px 0 95px;
+
     .gb-w-services-sub-title {
       font-weight: 400;
       font-size: 16px;
@@ -165,6 +188,7 @@
       color: $gb-primary-color-black;
       margin-bottom: 25px;
     }
+
     .gb-w-services-title {
       font-weight: 800;
       font-size: 44px;
@@ -177,6 +201,7 @@
         font-size: 42px;
         margin-bottom: 80px;
       }
+
       &::before {
         content: "";
         position: absolute;
@@ -191,6 +216,7 @@
         }
       }
     }
+
     .row {
       .col-lg-4 {
         &:first-child {
@@ -201,6 +227,7 @@
             }
           }
         }
+
         &:last-child {
           .gb-w-service {
             border-radius: 0 6px 6px 0;
@@ -211,6 +238,7 @@
         }
       }
     }
+
     .gb-w-service {
       border: 1px solid $gb-button-bg-color;
       height: 100%;
@@ -218,12 +246,15 @@
       @media (max-width: 767px) {
         padding: 24px 30px 40px;
       }
+
       .gb-w-service-icon {
         margin-bottom: 24px;
+
         img {
           height: 80px;
         }
       }
+
       .gb-w-service-title {
         font-weight: 900;
         font-size: 36px;
@@ -232,6 +263,7 @@
         color: $gb-primary-color-black;
         margin-bottom: 8px;
       }
+
       .gb-w-service-description {
         font-weight: 400;
         font-size: 16px;

@@ -5,12 +5,14 @@
     padding-top: 81px;
   }
 }
+
 .gb-page-banner {
   padding-top: 73px;
   padding-bottom: 160px;
   @media (max-width: 767px) {
     padding-bottom: 80px;
   }
+
   .gb-page-subtitle {
     @include gb-text-base;
     font-weight: 500;
@@ -21,6 +23,7 @@
     margin-bottom: 16px;
     text-align: center;
   }
+
   .gb-page-title {
     @include gb-text-base;
     font-weight: 800;
@@ -34,6 +37,7 @@
       font-size: 60px;
     }
   }
+
   .gb-page-description {
     @include gb-text-base;
     font-weight: 400;

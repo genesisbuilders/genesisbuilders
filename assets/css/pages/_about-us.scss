@@ -1,16 +1,19 @@
 .gb-about-us {
   .gb-page-banner {
     padding-bottom: 23px;
+
     .gb-page-description {
       width: 589px;
     }
   }
+
   .gb-au-story {
     padding: 148px 0 282px;
     position: relative;
     @media (max-width: 991px) {
       padding: 80px 0 40px;
     }
+
     &::before {
       content: "";
       position: absolute;
@@ -27,6 +30,7 @@
         opacity: 0.3;
       }
     }
+
     .gb-au-story-body {
       width: 709px;
       max-width: 100%;
@@ -38,6 +42,7 @@
       position: relative;
     }
   }
+
   .gb-au-content {
     .gb-au-title {
       font-weight: 800;
@@ -57,27 +62,33 @@
       line-height: 150%;
       color: $gb-primary-color-dark-gray;
     }
+
     .gb-au-image {
       width: 100%;
     }
   }
+
   .gb-au-fynbm {
     padding-top: 88px;
     padding-bottom: 10px;
+
     .gb-au-title {
       margin-top: 18px;
     }
+
     .gb-au-body {
       width: 466px;
       max-width: 100%;
     }
   }
+
   .gb-au-nstdao {
     padding-top: 88px;
     padding-bottom: 211px;
     @media (max-width: 767px) {
       padding: 60px 0 80px;
     }
+
     .gb-au-title {
       margin-top: 87px;
       @media (max-width: 991px) {
@@ -85,9 +96,11 @@
       }
     }
   }
+
   .gb-au-teams {
     padding: 102px 0 165px;
     position: relative;
+
     &::before {
       content: "";
       position: absolute;
@@ -96,14 +109,15 @@
       width: 100%;
       height: 100%;
       background: linear-gradient(
-        217.86deg,
-        rgba(212, 232, 226, 0.6) -0.8%,
-        rgba(254, 245, 230, 0.6) 30.49%,
-        rgba(254, 241, 222, 0.6) 65.44%,
-        rgba(225, 238, 237, 0.6) 99.34%
+                      217.86deg,
+                      rgba(212, 232, 226, 0.6) -0.8%,
+                      rgba(254, 245, 230, 0.6) 30.49%,
+                      rgba(254, 241, 222, 0.6) 65.44%,
+                      rgba(225, 238, 237, 0.6) 99.34%
       );
       transform: matrix(-1, 0, 0, 1, 0, 0);
     }
+
     .gb-au-teams-title {
       position: relative;
       font-weight: 800;
@@ -117,6 +131,7 @@
         font-size: 42px;
         margin-bottom: 80px;
       }
+
       &::before {
         content: "";
         position: absolute;
@@ -132,24 +147,29 @@
         }
       }
     }
+
     .gb-au-team {
       position: relative;
       text-align: center;
+
       &:hover {
         .gb-au-team-image {
           filter: grayscale(0);
         }
       }
+
       .gb-au-team-image {
         margin-bottom: 12px;
         filter: grayscale(1);
         transition: all ease-in-out 0.3s;
+
         .gb-au-team-avatar {
           width: 200px;
           height: 200px;
           border-radius: 50%;
           overflow: hidden;
           margin: 0 auto;
+
           img {
             width: 100%;
             height: 100%;
@@ -157,6 +177,7 @@
           }
         }
       }
+
       .gb-au-team-name {
         font-weight: 700;
         font-size: 20px;
@@ -164,6 +185,7 @@
         color: $gb-primary-color-black;
         margin-bottom: 12px;
       }
+
       .gb-au-team-title {
         font-weight: 400;
         font-size: 14px;
@@ -171,6 +193,7 @@
         color: #083baa;
         margin-bottom: 12px;
       }
+
       .gb-au-team-bio {
         font-weight: 400;
         font-size: 16px;
@@ -182,14 +205,17 @@
         margin-left: auto;
         margin-right: auto;
       }
+
       .gb-au-team-contact {
         a {
           text-decoration: none;
+
           &:hover {
             img {
               transform: scale(1.1);
             }
           }
+
           img {
             transform-origin: center center;
             transition: all ease-in-out 0.3s;
