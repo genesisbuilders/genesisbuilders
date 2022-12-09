@@ -578,6 +578,17 @@ body,
   width: 782px;
   max-width: 100%;
 }
+@media only screen and (max-width: 767px) {
+  .gb-homepage .gb-hp-story .gb-hp-story-title {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .gb-homepage .gb-hp-story .gb-hp-story-title {
+    font-size: 20px;
+    width: 90%;
+  }
+}
 .gb-homepage .gb-hp-story .gb-hp-story-body {
   font-weight: 500;
   font-size: 18px;
