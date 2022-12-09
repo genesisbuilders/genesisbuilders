@@ -255,7 +255,9 @@
         .gb-hp-expertise-item-title {
           color: #302f2f;
         }
-
+        .gb-hp-expertise-item-title-description {
+          display: none;
+        }
         .gb-hp-expertise-item-description {
           height: auto;
         }
@@ -298,7 +300,9 @@
         margin-bottom: 16px;
         transition: all ease-in-out 0.5s;
       }
-
+      .gb-hp-expertise-item-title-description {
+        color: $gb-white-color;
+      }
       .gb-hp-expertise-item-description {
         font-weight: 400;
         font-size: 18px;
