@@ -1315,6 +1315,11 @@ body,
   line-height: 150%;
   color: #595e65;
 }
+
+.gb-about-us .gb-au-content .gb-au-body a {
+  color: inherit;
+  font-style: italic;
+}
 .gb-about-us .gb-au-content .gb-au-image {
   width: 100%;
 }
